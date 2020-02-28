@@ -3,6 +3,8 @@ provider "azurerm" {
   client_id       = "${var.client_id}"
   client_secret   = "${var.client_secret}"
   tenant_id       = "${var.tenant_id}"
+  version = "~> 1.x"
+  
 }
 
 resource "azurerm_resource_group" "rg_coding_dojo" {
