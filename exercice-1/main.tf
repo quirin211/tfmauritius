@@ -1,5 +1,6 @@
 provider "azurerm" {
-    version = "~> 1.x"
+    version = "=2.0.0"
+    features {}
   }
 
 resource "azurerm_resource_group" "rg_coding_dojo" {
